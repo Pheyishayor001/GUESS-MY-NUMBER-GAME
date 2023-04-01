@@ -16,7 +16,7 @@ let highscore = 0;
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
-// all action that will take place on click.
+// all events that will take place on click.
 document.querySelector('.check').addEventListener('click', function () {
   //converted the input to number from string
   const guess = Number(document.querySelector('.guess').value);
